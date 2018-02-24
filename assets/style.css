@@ -169,5 +169,139 @@ input[type=submit]  {   background-color: crimson;
                         color: white;
                         font-size: 18px;
                         padding: 10px 30px;
-                        cursor: pointer;
-                    }
+                        cursor: pointer;}
+
+ @media (max-width: 980px) {    .container { max-width: 980px;
+                                margin: auto;
+                                height: auto;
+    
+                            } 
+                                #main-header {
+                                position: static;
+                                width: 100%;
+                                max-width: 980px;
+                                overflow: auto;
+                                margin: auto;} 
+
+                                #my-name { width: 980px;
+                                        }
+
+
+                                .main-image {   margin: auto;
+                                                width: 690px;
+                                                height: auto;
+        
+                                            }
+                                #main-container {padding: 30px;
+                                                max-width: 100%;
+                                                }
+
+
+                                .about-me { background-color: #ffffff;
+                                            padding: 30px;
+                                            margin: 10px;
+                                            width: 100%;
+                                            max-width: 660px;
+                                            border: 1px solid #dddddd;}
+
+
+
+                                .sidebar {background-color: #ffffff;
+                                            padding: 30px;
+                                            width: 100%;
+                                            max-width: 280px;
+                                            float: right;
+                                            border: 1px solid #dddddd;
+                                            margin-bottom: 20px;}
+
+
+                                            }
+                        
+@media (max-width: 768px) { .container { max-width: 768px;
+                                        margin: auto;
+                                        height: auto;
+    
+                                        } 
+                            #main-header {
+                                        position: static;
+                                        width: 100%;
+                                        max-width: 768px;
+                                        overflow: wrap;
+                                        margin: auto;} 
+
+                            #my-name    { width: 640px;
+                                            }
+
+
+                            .main-image {   margin: auto;
+                                    width: 580px;
+                                    height: auto;
+                                    
+                                        }
+                            #main-container {padding: 30px;
+                                            max-width: 100%;
+                                    }
+
+
+                            .about-me { background-color: #ffffff;
+                                        padding: 30px;
+                                        margin: 10px;
+                                        width: 100%;
+                                        max-width: 565px;
+                                        border: 1px solid #dddddd;}
+
+
+
+                            .sidebar {background-color: #ffffff;
+                                        padding: 30px;
+                                        width: 100%;
+                                        max-width: 200px;
+                                        float: right;
+                                        border: 1px solid #dddddd;
+                                        margin-bottom: 20px;}
+                        
+                                    }
+                        
+@media (max-width: 640px) { .container { max-width: 640px;
+                                        margin: auto;
+                                        height: auto;
+                                        
+                                        } 
+                            #main-header {
+                                    position: static;
+                                    width: 100%;
+                                    max-width: 640px;
+                                    overflow: wrap;
+                                    margin: auto;} 
+                                
+                            #my-name { width: 640px;
+                                    }
+
+                            
+                            .main-image {   margin: auto;
+                                            width: 500px;
+                                            height: auto;
+                                            
+                                            }
+                            #main-container {padding: 30px;
+                                            max-width: 100%;
+                                            }
+                            
+                            
+                            .about-me { background-color: #ffffff;
+                                    padding: 30px;
+                                    margin: 10px;
+                                    width: 100%;
+                                    max-width: 640px;
+                                    border: 1px solid #dddddd;}
+                               
+                                   
+                                
+                            .sidebar {background-color: #ffffff;
+                                padding: 30px;
+                                width: 100%;
+                                max-width: 640px;
+                                float: right;
+                                border: 1px solid #dddddd;
+                                margin-bottom: 20px;}
+                        }
